@@ -1,0 +1,7 @@
+{
+  "name": "pharmacygmApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
