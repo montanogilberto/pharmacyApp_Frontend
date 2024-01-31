@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import Page from './pages/Page';
 import Login from './pages/Login';
 import Logout from './pages/Logout';
+import Users from './pages/Users';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -40,6 +41,7 @@ const App: React.FC = () => {
           <IonRouterOutlet id="main">
             <Route path="/login" component={Login}/>
             <Route path="/logout" component={Logout}/>
+            <Route path="/users" component={Users} />
             <Route path="/folder/:name" exact={true}>
               <Page/>
             </Route>
